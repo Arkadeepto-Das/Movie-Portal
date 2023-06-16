@@ -1,0 +1,19 @@
+uuid: 498720e9-7e04-4d61-9cee-1fd841031927
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.movie_portal_form
+    - field.storage.contact_message.field_email
+id: contact_message.movie_portal_form.field_email
+field_name: field_email
+entity_type: contact_message
+bundle: movie_portal_form
+label: 'Email Address'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

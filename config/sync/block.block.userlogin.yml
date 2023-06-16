@@ -1,0 +1,20 @@
+uuid: 15185651-1020-4ccc-913e-044311eef02b
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - bootstrap5
+id: userlogin
+theme: bootstrap5
+region: sidebar_first
+weight: -7
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: visible
+  provider: user
+visibility: {  }

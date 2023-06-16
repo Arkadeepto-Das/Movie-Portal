@@ -1,0 +1,15 @@
+uuid: 74846277-73a7-4060-a03c-9d5962864161
+langcode: en
+status: true
+dependencies: {  }
+name: custom_style_130x100_
+label: 'Custom style (130x100)'
+effects:
+  223de09a-e7f6-48c4-bfd8-0b060905ad4e:
+    uuid: 223de09a-e7f6-48c4-bfd8-0b060905ad4e
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 130
+      height: 100
+      anchor: center-center

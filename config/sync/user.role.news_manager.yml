@@ -1,0 +1,16 @@
+uuid: f9ce6d18-52ef-495f-bf09-fa76647e0d7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news
+  module:
+    - node
+id: news_manager
+label: 'News Manager'
+weight: 5
+is_admin: null
+permissions:
+  - 'create news content'
+  - 'delete own news content'
+  - 'edit own news content'

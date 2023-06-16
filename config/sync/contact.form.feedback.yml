@@ -1,0 +1,14 @@
+uuid: 762246a8-3c6b-4ac0-a6f5-2addf48647a8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - ark.das270601@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

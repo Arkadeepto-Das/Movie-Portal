@@ -1,0 +1,25 @@
+uuid: 6c59f8c8-a056-48df-a366-0ce4f838bbb6
+langcode: en
+status: true
+dependencies:
+  module:
+    - quicktabs
+    - system
+  theme:
+    - bootstrap5
+id: quicktabsnewstabsblock
+theme: bootstrap5
+region: content
+weight: 0
+provider: null
+plugin: 'quicktabs_block:news_tabs_block'
+settings:
+  id: 'quicktabs_block:news_tabs_block'
+  label: 'QuickTabs - News Tabs Block'
+  label_display: '0'
+  provider: quicktabs
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

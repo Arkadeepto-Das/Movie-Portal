@@ -1,0 +1,10 @@
+uuid: 92ed08ca-dd0d-4767-ae96-6d0d77f1dba4
+langcode: en
+status: true
+dependencies: {  }
+id: movie_fields
+label: 'Movie fields'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
