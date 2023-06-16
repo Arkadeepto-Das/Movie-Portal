@@ -1,0 +1,23 @@
+uuid: 78613cac-02d0-4d8f-b242-6296ce28f510
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.movie_fields.field_title
+    - paragraphs.paragraphs_type.movie_fields
+id: paragraph.movie_fields.default
+targetEntityType: paragraph
+bundle: movie_fields
+mode: default
+content:
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

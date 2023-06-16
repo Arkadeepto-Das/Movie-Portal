@@ -1,0 +1,36 @@
+uuid: baa5f94c-80a9-408d-84a8-7613f0c12f4e
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.token
+    - field.field.node.list.field_movie_name
+    - field.field.node.list.field_reason
+    - node.type.list
+  module:
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.list.token
+targetEntityType: node
+bundle: list
+mode: token
+content:
+  field_movie_name:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_reason: true

@@ -1,0 +1,22 @@
+uuid: 9ae0dc82-5f14-4e2c-b510-8c476a764dec
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: genre_url
+label: 'Genre URL'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/reviews/[term:name]'
+selection_criteria:
+  ac1dacac-90e0-43e6-8496-b2cfa9c8c3b3:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: ac1dacac-90e0-43e6-8496-b2cfa9c8c3b3
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      genre: genre
+selection_logic: and
+weight: -5
+relationships: {  }

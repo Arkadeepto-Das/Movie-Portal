@@ -1,0 +1,14 @@
+uuid: c0321e8f-3a6f-4a5c-ba8b-eae497bdb5f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.news_manager
+  module:
+    - user
+id: user_add_role_action.news_manager
+label: 'Add the News Manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: news_manager

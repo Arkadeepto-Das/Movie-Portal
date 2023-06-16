@@ -1,0 +1,16 @@
+uuid: efbb8552-3513-40ea-9247-18510bfe20b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.list
+  module:
+    - node
+id: movie_manager
+label: 'Movie Manager'
+weight: 4
+is_admin: null
+permissions:
+  - 'create list content'
+  - 'delete own list content'
+  - 'edit own list content'

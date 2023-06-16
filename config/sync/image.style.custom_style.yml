@@ -1,0 +1,15 @@
+uuid: e00bd09f-1c23-465d-a734-f5ac0c3a55e1
+langcode: en
+status: true
+dependencies: {  }
+name: custom_style
+label: 'Custom style (300x200)'
+effects:
+  33431079-b1bc-4bf8-be85-08110ab10e6b:
+    uuid: 33431079-b1bc-4bf8-be85-08110ab10e6b
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 300
+      height: 200
+      anchor: center-center

@@ -1,0 +1,37 @@
+uuid: 78756ea9-71b6-4bb1-9c81-51b0c9561c4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.movie_portal_form
+    - field.field.contact_message.movie_portal_form.field_email
+    - field.field.contact_message.movie_portal_form.field_name
+id: contact_message.movie_portal_form.default
+targetEntityType: contact_message
+bundle: movie_portal_form
+mode: default
+content:
+  field_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  message:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,12 @@
+uuid: 21fcc9e8-f3ce-45bf-a0f3-64cfe41108ff
+langcode: en
+status: true
+dependencies: {  }
+id: movie_portal_form
+label: 'Contact Us'
+recipients:
+  - ark.das270601@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: /home

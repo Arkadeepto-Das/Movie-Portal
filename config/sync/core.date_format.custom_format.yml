@@ -1,0 +1,8 @@
+uuid: c1380c0f-3b71-4cfc-a5df-c32e03cdaff8
+langcode: en
+status: true
+dependencies: {  }
+id: custom_format
+label: 'Custom format'
+locked: false
+pattern: d/m/o

@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 65c81321-50a4-4e27-b2c6-4a27d3ddbdd4
+name: 'My Top Ten Films'
+mail: ark.das270601@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/260
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

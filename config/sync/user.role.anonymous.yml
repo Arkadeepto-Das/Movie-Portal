@@ -1,0 +1,29 @@
+uuid: a033871e-5ea1-456d-988f-6549b4c5779b
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+    - node.type.movies
+  module:
+    - comment
+    - contact
+    - filter
+    - node
+    - search
+    - system
+_core:
+  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'create movies content'
+  - 'delete own movies content'
+  - 'edit own movies content'
+  - 'search content'
+  - 'use text format restricted_html'
